@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'sakata.apps.SakataConfig',
     'ohgami.apps.OhgamiConfig',
     'kazumaru.apps.KazumaruConfig',
+    'watanabe.apps.WatanabeConfig',
 ]
 
 MIDDLEWARE = [
