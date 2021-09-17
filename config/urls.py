@@ -21,5 +21,6 @@ urlpatterns = [
     path('sato/', include('sato.urls')),
     path('sakata/', include('sakata.urls')),
     path('ohgami/', include('ohgami.urls')),
+    path('kazumaru/', include('kazumaru.urls')),
 ]
 
