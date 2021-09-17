@@ -43,6 +43,12 @@ INSTALLED_APPS = [
     'ohgami.apps.OhgamiConfig',
     'kazumaru.apps.KazumaruConfig',
     'watanabe.apps.WatanabeConfig',
+
+    'accounts.apps.AccountsConfig',
+
+    'django.contrib.sites',
+    'allauth',
+    'allauth.accounts',
 ]
 
 MIDDLEWARE = [
@@ -124,3 +130,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+AUTH_USER_MODEL = 'accounts.CustomUser'
