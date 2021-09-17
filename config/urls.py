@@ -20,5 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('sato/', include('sato.urls')),
     path('sakata/', include('sakata.urls')),
+    path('ohgami/', include('ohgami.urls')),
 ]
 

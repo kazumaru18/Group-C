@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     'sato.apps.SatoConfig',
     'sakata.apps.SakataConfig',
+    'ohgami.apps.OhgamiConfig',
 ]
 
 MIDDLEWARE = [
