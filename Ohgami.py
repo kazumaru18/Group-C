@@ -1,1 +1,0 @@
-# create sample.py writing ohgami
